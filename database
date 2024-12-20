@@ -1,0 +1,20 @@
+CREATE DATABASE HoTenSVDB;
+
+USE HoTenSVDB;
+
+CREATE TABLE Post (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    Content TEXT NOT NULL,
+    Comment TEXT,
+    Author VARCHAR(255) NOT NULL
+);
+
+-- Insert 6 records for testing
+INSERT INTO Post (Title, Content, Comment, Author) VALUES
+('Post 1', 'Content of Post 1', 'Comment 1', 'Author 1'),
+('Post 2', 'Content of Post 2', 'Comment 2', 'Author 2'),
+('Post 3', 'Content of Post 3', 'Comment 3', 'Author 3'),
+('Post 4', 'Content of Post 4', 'Comment 4', 'Author 4'),
+('Post 5', 'Content of Post 5', 'Comment 5', 'Author 5'),
+('Post 6', 'Content of Post 6', 'Comment 6', 'Author 6');

@@ -44,6 +44,7 @@ Sau khi xóa thành công, hiển thị lại danh sách bài đăng sau khi xó
 Xem chi tiết bài đăng:
 
 Cho phép xem chi tiết bài đăng, bao gồm Title, Content, Comment, và Author.
+
 Thêm bài đăng mới:
 
 Cung cấp form để người dùng nhập thông tin bài đăng mới.

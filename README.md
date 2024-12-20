@@ -27,10 +27,16 @@ Trang mặc định:
 Hiển thị danh sách tất cả các bài đăng trong cơ sở dữ liệu.
 Cung cấp liên kết điều hướng đến trang thêm mới bài đăng.
 Cho phép tìm kiếm bài đăng theo ID.
+
+![image](https://github.com/user-attachments/assets/66a533d5-73d3-43b2-8dc3-e21e77c10a53)
+
 Chỉnh sửa bài đăng:
 
 Trang chỉnh sửa hiển thị thông tin của bài đăng cần chỉnh sửa.
 Sau khi chỉnh sửa thành công, hiển thị lại danh sách bài đăng đã cập nhật.
+
+![image](https://github.com/user-attachments/assets/10345cdb-e262-4040-9806-845e7eba9c42)
+
 Xóa bài đăng:
 
 Cho phép xóa bài đăng đang chọn.
@@ -42,6 +48,8 @@ Thêm bài đăng mới:
 
 Cung cấp form để người dùng nhập thông tin bài đăng mới.
 Sau khi thêm thành công, hiển thị lại danh sách bài đăng bao gồm bài đăng mới.
+
+![image](https://github.com/user-attachments/assets/46a8c167-ff1f-4f31-94af-5235c657b33f)
 
 # Các Yêu Cầu Khác
 Validation: Áp dụng các phương thức kiểm tra đầu vào hợp lệ cho các trường dữ liệu (ví dụ: Tiêu đề bài đăng không được để trống, độ dài của nội dung bài đăng phải hợp lý, v.v.).

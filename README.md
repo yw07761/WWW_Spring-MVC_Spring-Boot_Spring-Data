@@ -20,7 +20,8 @@ com.ktth.entity: Tạo lớp Post.java với các trường như đã mô tả.
 com.ktth.dao: Tạo các phương thức để tương tác với cơ sở dữ liệu, bao gồm các truy vấn để thêm, xóa, chỉnh sửa, tìm kiếm bài đăng.
 com.ktth.service và com.ktth.impl: Định nghĩa interface và lớp thực thi các phương thức từ com.ktth.dao.
 com.ktth.controller: Tạo các phương thức gọi từ lớp com.ktth.impl và điều hướng tới các view tương ứng.
-Chức Năng
+
+# Chức Năng
 Trang mặc định:
 
 Hiển thị danh sách tất cả các bài đăng trong cơ sở dữ liệu.
@@ -41,7 +42,8 @@ Thêm bài đăng mới:
 
 Cung cấp form để người dùng nhập thông tin bài đăng mới.
 Sau khi thêm thành công, hiển thị lại danh sách bài đăng bao gồm bài đăng mới.
-Các Yêu Cầu Khác
+
+# Các Yêu Cầu Khác
 Validation: Áp dụng các phương thức kiểm tra đầu vào hợp lệ cho các trường dữ liệu (ví dụ: Tiêu đề bài đăng không được để trống, độ dài của nội dung bài đăng phải hợp lý, v.v.).
 Hướng Dẫn Cài Đặt và Chạy Ứng Dụng
 Cài đặt MariaDB (hoặc H2):
